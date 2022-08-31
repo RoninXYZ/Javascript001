@@ -2,5 +2,10 @@
 // console.log(Number.isNaN("Dave"));
 // console.log(isNaN("Dave"));
 //console.log(Math.PI);
-console.log(Math.trunc(Math.PI));
-console.log(Math.round(3.5));
+// console.log(Math.trunc(Math.PI));
+// console.log(Math.round(3.5));
+//console.log(typeof "Dave");
+//console.log("Dave" .charAt());
+console.log(Math.floor(Math.random() * 4 + 1));
+console.log(Math.floor(Math.random() * 4 + 1));
+console.log(Math.floor(Math.random() * 4 + 1));

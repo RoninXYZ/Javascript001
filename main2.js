@@ -4,12 +4,18 @@
 
 // }
 
-
-let soup //= "chicken noodle soup";
+let Costumerisbanned = false;
+let soup = "chicken noodle soup";
+let crackes = true;
 let replay;
-if(soup){
+if(Costumerisbanned){
+    replay = `no soup for you`
+}else if(soup && crackes){
+    replay= `Here is your order ${soup} & crackes`;
+}else if(soup){
     replay= `Here is your order ${soup}`;
-}else{
+}
+else{
     replay=`sory we are out of soup`;
 }
 console.log(replay);

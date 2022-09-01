@@ -1,5 +1,8 @@
 document.getElementById("myIdButton").onclick = function(){
-    if(document.getElementById("myCheckbox").checked ){
+    
+    const myCheckBox = document.getElementById("myCheckbox")
+    
+    if(myCheckBox.checked ){
      console.log("you are subscribed")
     }else{
         console.log("you are Not subscribed")

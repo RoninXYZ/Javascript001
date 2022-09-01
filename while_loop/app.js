@@ -1,6 +1,6 @@
 let username ="";
 
-while(username == ""){
+while(username == "" || username == null){
     username = window.prompt("Enter your name");
 }
 
